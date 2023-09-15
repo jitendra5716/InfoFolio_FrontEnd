@@ -1,0 +1,54 @@
+#cardBody{
+    position: relative;
+}
+
+.btn{
+    height: 2rem;
+    width: 5rem;
+    border: none;
+   
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
+#viewBtn{
+    background-color: #20c997;
+}
+#viewBtn:hover{
+    background-color: #0ca678;
+}
+#deleteBtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.deleteIconDiv{
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightcyan;
+    box-shadow: 0px 0px 4px gray;
+}
+.deleteIconDiv:hover{
+    background-color: cyan;
+}
+.deleteIconDiv img{
+    height: 15px;
+    width: 15px;
+}
+#editBtn{
+    background-color: midnightblue;
+}
+#editBtn:hover{
+    background-color: blue;
+}
+#outerDiv{
+    box-shadow: 0px 0px 8px lightgray;
+}
